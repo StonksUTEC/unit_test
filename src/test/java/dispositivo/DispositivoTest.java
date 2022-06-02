@@ -31,7 +31,7 @@ class DispositivoTest {
     @DisplayName("Consulta")
     void testSetConsulta() {
         DateFormatException ex = assertThrows(DateFormatException.class, ()->dispositivo.setConsulta(fechaInv));
-        assertSame(Dispositivo.DATE_FORMAT_EXCEPTION, ex.getCode());
+        assertSame(Dispositivo.SET_CONSULTA_INVALID, ex.getMessage());
         assertAll( ()-> dispositivo.setConsulta(fechaConsultaPos));
     }
 
@@ -39,7 +39,7 @@ class DispositivoTest {
     @DisplayName("Fecha de Nacimiento")
     void testSetFechaNacimiento() {
         DateFormatException ex = assertThrows(DateFormatException.class, ()->dispositivo.setFechaNacimiento(fechaInv));
-        assertSame(Dispositivo.DATE_FORMAT_EXCEPTION, ex.getCode());
+        assertSame(Dispositivo.SET_FECHA_NACIMIENTO_INVALID, ex.getMessage());
         assertAll( ()-> dispositivo.setFechaNacimiento(fechaNacimiento));
     }
 
@@ -56,6 +56,6 @@ class DispositivoTest {
         assertFalse(dispositivo.esMayorDeEdad());
         dispositivo.setConsulta(fechaConsultaInv);
         DateException ex = assertThrows(DateException.class, ()->dispositivo.esMayorDeEdad());
-        assertSame(Dispositivo.DATE_EXCEPTION, ex.getCode());
+        assertSame(Dispositivo.CONSULTA_MAYOR_FECHA_DE_NACIMIENTO, ex.getMessage());
     }
 }
