@@ -1,3 +1,0 @@
-persona.Persona#esMayorDeEdad()Z
-java.time.Period#getYears()I
-java.time.Period#between(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/time/Period;

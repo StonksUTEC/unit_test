@@ -1,45 +1,0 @@
-
- persona.Persona#esMayorDeEdad()Zs
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java ( "1*»
-
-1s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java ( ¼
-¹
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java) (1
-%0java.time.LocalDate"__id*!*
-persona.Persona"
-
-consulta¾
-»
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java2 (<
-%1java.time.LocalDate"__id*#*!
-persona.Persona"
-
-nacimiento¸
-µ
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java (=
-%2java.time.Period"Vjava.time.Period#between(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/time/Period;*"
-java.time.Period*
-
-%0java.time.LocalDate*
-
-%1java.time.LocalDate¶
-³
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java (>
-intervaljava.time.Period"__id*
-
-%2java.time.PeriodÍÊ
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java (#	
-%3int"java.time.Period#getYears()I*
-
-intervaljava.time.Period2
-getYears()"}
-s
-iC:/Users/moralespanitz/UTEC/Software-Engineering/TestingLab/TestingLab/src/main/java/persona/Persona.java (+
-""B
-persona.Persona
